@@ -1,0 +1,376 @@
+/* ===== GENERAL ===== */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #ffffff;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #1a1a2e;
+}
+
+.section-desc {
+  text-align: center;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+  background-color: #1a1a2e;
+  padding: 15px 0;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #00d4ff !important;
+}
+
+.nav-link {
+  color: #ccc !important;
+  margin: 0 5px;
+}
+
+.nav-link:hover {
+  color: #00d4ff !important;
+}
+
+.btn-enroll {
+  background-color: #00d4ff;
+  color: #1a1a2e;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 6px 16px;
+}
+
+.btn-toggle {
+  background-color: transparent;
+  border: 1px solid #00d4ff;
+  color: #00d4ff;
+  border-radius: 5px;
+  padding: 6px 12px;
+  font-size: 13px;
+}
+
+.btn-toggle:hover {
+  background-color: #00d4ff;
+  color: #1a1a2e;
+}
+
+/* ===== HERO SECTION ===== */
+.hero-section {
+  background-color: #1a1a2e;
+  color: white;
+  padding: 120px 0 80px;
+}
+
+.badge-label {
+  background-color: #00d4ff;
+  color: #1a1a2e;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.hero-section h1 {
+  font-size: 38px;
+  margin-top: 15px;
+  line-height: 1.3;
+}
+
+.highlight {
+  color: #00d4ff;
+}
+
+.hero-desc {
+  color: #bbb;
+  font-size: 16px;
+  margin: 15px 0 25px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.btn-primary-custom {
+  background-color: #00d4ff;
+  color: #1a1a2e;
+  font-weight: bold;
+  padding: 10px 24px;
+  border-radius: 5px;
+}
+
+.btn-outline-custom {
+  border: 2px solid #00d4ff;
+  color: #00d4ff;
+  padding: 10px 24px;
+  border-radius: 5px;
+}
+
+.hero-image-box {
+  background-color: #2a2a4e;
+  height: 250px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #888;
+  font-size: 18px;
+}
+
+/* ===== CLICK COUNTER SECTION ===== */
+.counter-section {
+  background-color: #eaf4ff;
+  padding: 40px 0;
+  transition: background-color 0.3s;
+}
+
+.counter-section h4 {
+  color: #1a1a2e;
+  margin-bottom: 10px;
+}
+
+.counter-number {
+  font-size: 28px;
+  font-weight: bold;
+  color: #1a1a2e;
+  margin: 10px 0;
+}
+
+.btn-counter {
+  background-color: #1a1a2e;
+  color: white;
+  padding: 8px 24px;
+  border-radius: 5px;
+}
+
+.btn-counter:hover {
+  background-color: #00d4ff;
+  color: #1a1a2e;
+}
+
+.btn-reset {
+  background-color: #e74c3c;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 5px;
+}
+
+.btn-reset:hover {
+  background-color: #c0392b;
+  color: white;
+}
+
+/* ===== FEATURES SECTION ===== */
+.features-section {
+  background-color: #f8f9fa;
+  padding: 70px 0;
+  transition: background-color 0.3s;
+}
+
+.feature-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  height: 100%;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.card-icon {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.feature-card h5 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #1a1a2e;
+}
+
+.feature-card p {
+  color: #666;
+  font-size: 14px;
+}
+
+.btn-learn {
+  background-color: #1a1a2e;
+  color: white;
+  padding: 6px 20px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* ===== TEAM SECTION ===== */
+.team-section {
+  background-color: #1a1a2e;
+  padding: 70px 0;
+}
+
+.team-section .section-title {
+  color: white;
+}
+
+.team-card {
+  background-color: #2a2a4e;
+  border-radius: 10px;
+  padding: 25px;
+  text-align: center;
+  color: white;
+}
+
+.team-photo {
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+
+.team-card h5 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.team-role {
+  color: #00d4ff;
+  font-size: 14px;
+}
+
+.team-card p {
+  color: #bbb;
+  font-size: 14px;
+}
+
+/* ===== CONTACT SECTION ===== */
+.contact-section {
+  background-color: #f8f9fa;
+  padding: 70px 0;
+  transition: background-color 0.3s;
+}
+
+.contact-form {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  transition: background-color 0.3s;
+}
+
+.btn-submit {
+  background-color: #1a1a2e;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.btn-submit:hover {
+  background-color: #00d4ff;
+  color: #1a1a2e;
+}
+
+/* Error and Success Messages */
+.error-msg {
+  color: red;
+  font-size: 13px;
+  margin: 2px 0 0;
+  min-height: 18px;
+}
+
+.success-msg {
+  color: green;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+  min-height: 20px;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+  background-color: #1a1a2e;
+  color: #bbb;
+  padding: 20px 0;
+  font-size: 14px;
+}
+
+.footer p {
+  margin-bottom: 5px;
+}
+
+.social-icons a {
+  color: #00d4ff;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.social-icons a:hover {
+  color: white;
+}
+
+/* ===== DARK MODE STYLES ===== */
+body.dark {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.dark .features-section {
+  background-color: #1e1e1e;
+}
+
+body.dark .feature-card {
+  background-color: #2a2a2a;
+  color: #e0e0e0;
+}
+
+body.dark .feature-card h5 {
+  color: #00d4ff;
+}
+
+body.dark .feature-card p {
+  color: #aaa;
+}
+
+body.dark .section-title {
+  color: #00d4ff;
+}
+
+body.dark .section-desc {
+  color: #aaa;
+}
+
+body.dark .counter-section {
+  background-color: #1a1a1a;
+}
+
+body.dark .counter-section h4 {
+  color: #e0e0e0;
+}
+
+body.dark .counter-number {
+  color: #00d4ff;
+}
+
+body.dark .contact-section {
+  background-color: #1e1e1e;
+}
+
+body.dark .contact-form {
+  background-color: #2a2a2a;
+  color: #e0e0e0;
+}
+
+body.dark .form-control {
+  background-color: #3a3a3a;
+  color: #e0e0e0;
+  border-color: #555;
+}
